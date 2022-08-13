@@ -32,6 +32,6 @@ The gameplay logic required that words be randomly chosen from a pre-defined lis
 ![high-scores](https://user-images.githubusercontent.com/84057490/184459007-24ca9416-5a18-4a15-827d-cc3949a9a5f4.png)
 
 
-[Go To Hangman Game Website](http://aric-glanville.epizy.com/welcome.html)
+### [Go To Hangman Game Website](http://aric-glanville.epizy.com/welcome.html)
 
-## [Go To Code Repo](https://github.com/aricglanville/3750HangmanGame.git)
+### [Go To Code Repo](https://github.com/aricglanville/3750HangmanGame.git)
