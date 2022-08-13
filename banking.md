@@ -46,4 +46,4 @@ Lastly, since we were representing all of the account balances in the database a
 ### Conversion Functions
 ![conversionFuncs](https://user-images.githubusercontent.com/84057490/184463725-b23f6c88-2deb-41c0-82f1-0d7a566eb03e.png)
 
-[Go To Code Repo](https://github.com/aricglanville/BankingApp.git)
+## [Go To Code Repo](https://github.com/aricglanville/BankingApp.git)
