@@ -18,13 +18,13 @@ For my part of the assignment I had originally written most of the ajax call fun
 
 As the game sits it works for the most part. The only issue we are running into now is that the API throws a 426-Too many Requests error if a certain amount of requests are made in a specific timespan. Unfortunately this is not something I think we can fix directly because it is a built in part of the API. The only solution would be to find a better API that allows for more requests within a certain period of time.
 
-###Script for Accept button handler myself and my team mate Cayden worked on
+### Script for Accept button handler myself and my team mate Cayden worked on
 ![acceptScript](https://user-images.githubusercontent.com/84057490/184507772-c86306cd-60be-495e-9ba6-634adda8267e.png)
 
-###Function I created to find a random day to start the game on as well as the Ajax functions I assisted with
+### Function I created to find a random day to start the game on as well as the Ajax functions I assisted with
 ![image](https://user-images.githubusercontent.com/84057490/184507826-4e7f7d9a-aaba-432b-9635-6737c33f7cec.png)
 
-###Screenshot of a game in progress
+### Screenshot of a game in progress
 ![gameplay](https://user-images.githubusercontent.com/84057490/184507898-afd6c767-23cf-480c-a466-3f116bd07e8b.png)
 
 [Go To Code Repo](https://github.com/aricglanville/StockTickerGame.git)
