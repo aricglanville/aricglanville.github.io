@@ -37,10 +37,9 @@ To populate the board I wrote a simple function with a for loop that would itera
 
 We encountered a few issues with getting SignalR to work correctly for both players but most issues were minor and easily fixed. One of the bigger issues we ran into was that each player was getting a different game board than the other player. To fix this we just made sure to store the values from first board that was created and pass it over to the second player so they were new creating a whole new board and instead just using the same one created for the first player. The other problem we ran into was when we tried to create a new game button. The issue was that the static variables for each player were still persisting and when a player started a new game instead of becoming player 1 or 2, they would now become player 3 or 4. This caused a number of issues such as players not being able to enter the game because the program thought the game already had two players, or if the game did start it would not keep track of words or scores. To solve this we just made sure that when a new game button was clicked both players were taken back to the start page and their connection to the SignalR chat hub was disconnected, that way when they started a new game they also initiated a new connection to the SignalR chathub with clean variables.
 
-[Go To Code Repo](https://github.com/aricglanville/WordFinderGame.git)
-
 ### Below are some screenshots from an active game session
 ![gameplay](https://user-images.githubusercontent.com/84057490/184510183-a6297a14-2a36-45ab-b4b5-ab0233dd27f6.png)
 
 ![game end](https://user-images.githubusercontent.com/84057490/184510188-d2d79742-2fe5-4df7-b524-81ad734b3353.png)
 
+## [Go To Code Repo](https://github.com/aricglanville/WordFinderGame.git)
