@@ -42,4 +42,6 @@ We encountered a few issues with getting SignalR to work correctly for both play
 
 ![game end](https://user-images.githubusercontent.com/84057490/184510188-d2d79742-2fe5-4df7-b524-81ad734b3353.png)
 
-## [Go To Code Repo](https://github.com/aricglanville/WordFinderGame.git)
+### [Boggle Game Website](https://boggleprojectfinal.azurewebsites.net)
+
+### [Go To Code Repo](https://github.com/aricglanville/WordFinderGame.git)
