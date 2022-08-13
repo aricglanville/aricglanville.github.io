@@ -27,4 +27,4 @@ As the game sits it works for the most part. The only issue we are running into 
 ### Screenshot of a game in progress
 ![gameplay](https://user-images.githubusercontent.com/84057490/184507898-afd6c767-23cf-480c-a466-3f116bd07e8b.png)
 
-## [Go To Code Repo](https://github.com/aricglanville/StockTickerGame.git)
+### [Go To Code Repo](https://github.com/aricglanville/StockTickerGame.git)
