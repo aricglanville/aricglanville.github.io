@@ -10,7 +10,7 @@ This was the first project assigned in my CS3750 course and the only non-group p
 The task was to design a hangman game that used PHP to handle server side programming and logic.
 The website for the game is hosted on infinityfree.net and uses their MySQL database tool to manage user info.
 
-The assignment itself was comprised of three requirements: 1) the login system, 2) the game logic, and 3) a high scores page.
+The assignment itself was comprised of three requirements: the login system, the game logic, and a high scores page.
 
 For the login requirement I needed to allow the user to create a new account or sign in with an existing account. The username had to be unique and the password needed to be hashed. To store new user info into the database and retrieve existing user info I used MySQL prepared statements to prevent SQL injection. For new users, I had to first ensure that their chosen username was not already in use. After that, the program then creates a random 4 integer salt and appends it to their supplied password request. I then use the SHA-256 algorithm to hash the salted password before storing it and the salt in the database. For existing users I just needed to make sure that the supplied username exists and then take the supplied password and append the salt stored in the database under that username to it, hash it, then compare it to the stored hashed password/salt combo.
 
