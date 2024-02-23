@@ -6,9 +6,7 @@ permalink: https://aricglanville.github.io/banking
 
 ## Banking App
 
-This was the second project for the course and the first group project that we were assigned.
-
-The assignment was to create a simple banking app with the following requirements:
+This project was to create a simple banking app with the following requirements:
 1. Use a login system that allows account creation, verification of credentials, and password hashing.
 2. Allow the user deposit/store/withdraw money into three accounts.  Transfers are done within a user's accounts, and not to other user's accounts.
 3. Show both a full account transaction history and an individual account transaction history, with date times and money changes. 
