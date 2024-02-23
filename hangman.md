@@ -6,8 +6,7 @@ permalink: https://aricglanville.github.io/hangman
 
 # Hangman Game
 
-This was the first project assigned in my CS3750 course and the only non-group project for the course.
-The task was to design a hangman game that used PHP to handle server side programming and logic.
+For this project, the task was to design a hangman game that used PHP to handle server side programming and logic.
 The website for the game is hosted on infinityfree.net and uses their MySQL database tool to manage user info.
 
 The assignment itself was comprised of three requirements: the login system, the game logic, and a high scores page.
