@@ -6,7 +6,7 @@ permalink: https://aricglanville.github.io/banking
 
 ## Capstone Project - Budgeting app
 
-For this capstone project I worked with a team of three others to develop a home budgeting application that was focused toward college student in the sense that they would have their own personal finances to manage as well as shared finances and household bills that would be split between members of that household. To maintain data fidelity between instances of the application which would allow easier sharing of household info between users as well as allow users to login on different machines, we created an API that allowed us to store and pull our data from a cloud hosted database.
+For this capstone project I worked with a team of three others to develop a household budgeting application that was focused toward college students sharing housing. We wanted to implement a slightly different system than other similar applications currently on the market by allowing members within a household to share bills either based on income percentage or a specific value amount. To maintain data fidelity between instances of the application which would allow easier sharing of household info between users as well as allow users to login on different machines, we created an API that allowed us to store and pull our data from a cloud hosted database.
 
 For the technologies we used in our project we opted to develop using an MVVM design pattern with the following tools:
 1. IDE - Visual Studio
@@ -21,9 +21,7 @@ For the technologies we used in our project we opted to develop using an MVVM de
 11. API Testing - Postman
 12. Team Collaboration - Discord
 
-The way that our budgeting app wors is slightly different than others currently on the market. We wanted to implement a system that would allow members within a household to share bills either based on income percentage or a specific value amount.
-
-The way that it works is each user of the program havean individual login that will access their personal budget profile where they can manage bank accounts, transactions, budget items, and produce reports, with all of these items only visible to that specific user.
+The way that the app works is each user of the program has an individual login that accesses their personal budget profile where they can manage bank accounts, transactions, budget items, and produce reports, with all of these items only visible to that specific user.
 Within their personal user dashboard they can also elect to create a household. When creating a household, the creator is able to invite other users of the budget application to join their household by giving them a unique join code to enter from their dashboard. Once a household has been created, hosuehold members will then be able to add bills/transactions that are shared among all members of the household. When creating a shared bill, the user is able to specify which household members will be included on that bill and whether the bill will be split based on the difference of each members income percentage or by a specific amount. After the bill creation has been completed, the bill will show up in the shared household tab that all members have access to. In this household tab each user can see the total amount of the bill and whether or not a member has paid their portion of it (they will not be able to see how much that member paid though). Along with this, each household member will also have a budget category created in their own private budget page containing all of the bill items reflecting the amount they owe. To pay towards a bill, the user will simply create an transaction, selecting that bill from the category drop down, and allocating funds from their selected bank account. This will reflect on the bill item in their personal budget page as well as the shared household page.   
 
 Within each users personal dashboard there are a few tabs for different types of budget tracking they can perform.
@@ -36,7 +34,8 @@ On this project I worked as the product owner since the idea was mostly mine. Al
 
 By the end of the semester we were able to get 95% of our project completed and working amazingly. One of the things we did not end up having time to finish was the income tracking system that would allow users to split bills by difference of income percentages.
 
-Below I have linked two code repositories. 
+
+### _Code Repos_
 
 This first repo contains the last instance of code that compiles and executes with a majority of the app functionality. What doesn't work in the repo is the API because the connections weren't complete at this point, the household page (because the API connections arent complete), the reports page, and the detail panes of each dashboard tab. I am including this repo because it is at least a good example of how the base functionality of the application works.
 ## [BudgetHero Working version](https://github.com/aricglanville/Capstone-BudgetHero.git)
