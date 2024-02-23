@@ -1,6 +1,6 @@
-## Aric Glanville CS3750 Portfolio
+## Aric Glanville Project Portfolio
 
-Hello! This is my collection of projects completed for the CS3750 course at Weber State University.
+Hello! This is a collection of projects I have completed during my enrollment at Weber State University.
 
 1. [PHP Hangman Game](https://aricglanville.github.io/hangman)
 2. [C# Simple Banking App](https://aricglanville.github.io/banking)
