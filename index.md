@@ -6,3 +6,4 @@ Hello! This is a collection of projects I have completed during my enrollment at
 2. [C# Simple Banking App](https://aricglanville.github.io/banking)
 4. [C# Stock Ticker Game](https://aricglanville.github.io/stockticker)
 5. [C# Word Finder Game](https://aricglanville.github.io/wordfinder)
+6. [Capstone Project - Household Budget Application](https://aricglanville.github.io/budgethero)
