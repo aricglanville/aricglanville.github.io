@@ -35,7 +35,7 @@ On this project I worked as the product owner since the idea was mostly mine. Al
 By the end of the semester we were able to get 95% of our project completed and working amazingly. One of the things we did not end up having time to finish was the income tracking system that would allow users to split bills by difference of income percentages.
 
 
-### _Code Repos_
+### <u>Code Repos</u>
 
 This first repo contains the last instance of code that compiles and executes with a majority of the app functionality. What doesn't work in the repo is the API because the connections weren't complete at this point, the household page (because the API connections arent complete), the reports page, and the detail panes of each dashboard tab. I am including this repo because it is at least a good example of how the base functionality of the application works.
 ## [BudgetHero Working version](https://github.com/aricglanville/Capstone-BudgetHero.git)
